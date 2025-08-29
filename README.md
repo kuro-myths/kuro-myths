@@ -1,4 +1,4 @@
-<div style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); padding: 20px; border-radius: 15px;">
+<div style="background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77); padding: 20px; border-radius: 15px;">
 
 <h3 align="center">✨ ¡Hola amigo! Nama saya Kuro, pemilik MYTHS ✨</h3>
 <p align="center">
@@ -44,6 +44,14 @@ Selamat datang, semoga betah di sini!
 
 ---
 
+<h3 align="center">🏆 GitHub Achievements</h3>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kuro-myths&theme=onedark&no-frame=true&row=1&column=6" />
+</p>
+
+---
+
 <h3 align="center">🐉 Myths Dragon Contributions</h3>
 
 <p align="center">
@@ -52,6 +60,14 @@ Selamat datang, semoga betah di sini!
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kuro-myths/ular/output/github-snake.svg" />
     <img alt="github-snake" src="https://raw.githubusercontent.com/kuro-myths/ular/output/github-snake.svg" />
   </picture>
+</p>
+
+---
+
+<h3 align="center">📅 Quote of the Day</h3>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Quote"/>
 </p>
 
 ---
