@@ -44,10 +44,18 @@ Selamat datang, semoga betah di sini!
 
 ---
 
-<h3 align="center">🏆 GitHub Achievements</h3>
+<h3 align="center">🔥 GitHub Streak Stats</h3>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kuro-myths&theme=onedark&no-frame=true&row=1&column=6" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kuro-myths&theme=tokyonight" alt="streak stats"/>
+</p>
+
+---
+
+<h3 align="center">📈 GitHub Activity Graph</h3>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kuro-myths&theme=tokyo-night" alt="activity graph"/>
 </p>
 
 ---
