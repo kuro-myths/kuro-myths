@@ -1,8 +1,5 @@
-<h3 align="left">✨ “¡Hola amigo! Nama saya Kuro, pemilik MYTHS. Tempat ini bukan sekadar rumah, tapi dunia tempat imajinasi dan karya bebas hidup. Selamat datang, semoga betah di sini!”</h3>
-
-###
-
-<img align="right" height="150" src="https://avatars.githubusercontent.com/u/227951065?v=4"  />
+| ✨ “¡Hola amigo! Nama saya Kuro, pemilik MYTHS. Tempat ini bukan sekadar rumah, tapi dunia tempat imajinasi dan karya bebas hidup. Selamat datang, semoga betah di sini!” | <img src="https://avatars.githubusercontent.com/u/227951065?v=4" height="150"/> |
+|---|---|
 
 ---
 
