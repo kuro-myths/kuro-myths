@@ -6,10 +6,21 @@ Tempat ini bukan sekadar rumah, tapi dunia tempat imajinasi dan karya bebas hidu
 Selamat datang, semoga betah di sini!
 </p>
 
----
-
-| <img src="https://avatars.githubusercontent.com/u/227951065?v=4" height="150"/> | 🎭 Creator di balik **MYTHS** <br> 💡 Suka ngembangin ide jadi dunia digital <br> 🐉 Fans dunia fantasi, RPG, dan storytelling <br> 🎨 Kadang ngulik desain + seni visual |
-|---|---|
+<!-- PP & GIF Sekaligus -->
+<table align="center">
+<tr>
+  <td align="center">
+    <img src="https://avatars.githubusercontent.com/u/227951065?v=4" height="150"/><br>
+    🎭 Creator di balik <b>MYTHS</b><br>
+    💡 Suka ngembangin ide jadi dunia digital<br>
+    🐉 Fans dunia fantasi, RPG, dan storytelling<br>
+    🎨 Kadang ngulik desain + seni visual
+  </td>
+  <td align="center">
+    <img src="dokumen/Primordial Myths.gif" alt="Primordial Myths GIF" style="max-width:200px;height:auto;"/>
+  </td>
+</tr>
+</table>
 
 ---
 
