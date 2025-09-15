@@ -6,6 +6,18 @@ Tempat ini bukan sekadar rumah, tapi dunia tempat imajinasi dan karya bebas hidu
 Selamat datang, semoga betah di sini!
 </p>
 
+---
+
+<h3 align="center">📖 Awal Mula Kuro</h3>
+
+<p align="center">
+Di antara riuh dunia digital, lahirlah <b>Kuro</b>—seorang pengelana imajinasi yang mencari jalan untuk menghubungkan kode, seni, dan cerita.  
+Awalnya hanyalah percikan ide, namun perlahan menjelma menjadi <b>MYTHS</b>: sebuah dimensi di mana setiap baris kode adalah mantra, dan setiap proyek membuka gerbang ke dunia baru.  
+Bagi Kuro, dunia digital bukan sekadar alat, melainkan panggung untuk mewujudkan fantasi, membangun cerita, dan menghadirkan pengalaman yang bisa dirasakan orang lain.  
+</p>
+
+---
+
 <!-- PP & GIF Sekaligus -->
 <table align="center">
 <tr>
@@ -21,6 +33,7 @@ Selamat datang, semoga betah di sini!
   </td>
 </tr>
 </table>
+
 
 ---
 
