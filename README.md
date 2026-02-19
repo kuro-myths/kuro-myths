@@ -1,144 +1,166 @@
-<div style="background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77); padding: 20px; border-radius: 15px;">
+<!-- 🔮 MYTHS — Profile README by Kuro -->
 
-<h3 align="center">✨ ¡Hola amigo! Nama saya Kuro, pemilik MYTHS ✨</h3>
+<!-- ═══════════════════ HEADER ═══════════════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,50:1b263b,100:8b5cf6&height=220&section=header&text=🐉%20MYTHS&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=Where%20Code%20Becomes%20Magic&descSize=18&descAlignY=55&animation=twinkling"/>
+
+<!-- ═══════════════════ TYPING INTRO ═══════════════════ -->
 <p align="center">
-Tempat ini bukan sekadar rumah, tapi dunia tempat imajinasi dan karya bebas hidup.  
-Selamat datang, semoga betah di sini!
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=✨+Hola+amigo!+Nama+saya+Kuro,+pemilik+MYTHS+✨;🔮+Selamat+datang+di+dunia+imajinasi+dan+karya+bebas!" alt="Typing SVG" />
 </p>
 
 ---
 
-<h3 align="center">📖 Awal Mula Kuro</h3>
+<!-- ═══════════════════ ABOUT ME ═══════════════════ -->
+<h2 align="center">📖 Awal Mula Kuro</h2>
 
-<p align="center">
-Di antara riuh dunia digital, lahirlah <b>Kuro</b>—seorang pengelana imajinasi yang mencari jalan untuk menghubungkan kode, seni, dan cerita.  
-Awalnya hanyalah percikan ide, namun perlahan menjelma menjadi <b>MYTHS</b>: sebuah dimensi di mana setiap baris kode adalah mantra, dan setiap proyek membuka gerbang ke dunia baru.  
-Bagi Kuro, dunia digital bukan sekadar alat, melainkan panggung untuk mewujudkan fantasi, membangun cerita, dan menghadirkan pengalaman yang bisa dirasakan orang lain.  
-</p>
-
----
-
-<!-- PP & GIF Sekaligus -->
 <table align="center">
 <tr>
-  <td align="center">
-    <img src="https://avatars.githubusercontent.com/u/227951065?v=4" height="150"/><br>
-    🎭 Creator di balik <b>MYTHS</b><br>
-    💡 Suka ngembangin ide jadi dunia digital<br>
-    🐉 Fans dunia fantasi, RPG, dan storytelling<br>
-    🎨 Kadang ngulik desain + seni visual
+  <td width="350" align="center">
+    <img src="https://avatars.githubusercontent.com/u/227951065?v=4" width="150" style="border-radius:50%"/><br><br>
+    <img src="https://img.shields.io/badge/🎭_Creator-MYTHS-8b5cf6?style=for-the-badge" /><br>
+    <img src="https://img.shields.io/badge/💡_Builder-Digital_Worlds-3b82f6?style=for-the-badge" /><br>
+    <img src="https://img.shields.io/badge/🐉_Fan-Fantasy_&_RPG-22c55e?style=for-the-badge" /><br>
+    <img src="https://img.shields.io/badge/🎨_Explorer-Design_&_Art-ec4899?style=for-the-badge" />
   </td>
-  <td align="center">
-    <img src="dokumen/Primordial Myths.gif" alt="Primordial Myths GIF" style="max-width:200px;height:auto;"/>
+  <td width="350" align="center">
+    <img src="dokumen/Primordial Myths.gif" alt="Primordial Myths GIF" width="280"/>
   </td>
 </tr>
 </table>
 
-
----
-
-<h3 align="center">⚔️ Featured Projects</h3>
-
 <p align="center">
-  <a href="https://github.com/kuro-myths/global-map"><img src="https://img.shields.io/badge/Myths-Global_Map-blue?style=for-the-badge&logo=github"></a>
-  <a href="https://github.com/kuro-myths/awakening"><img src="https://img.shields.io/badge/Portal-Legenda_Awakening-purple?style=for-the-badge&logo=github"></a>
+<i>Di antara riuh dunia digital, lahirlah <b>Kuro</b> — seorang pengelana imajinasi.<br>
+Awalnya hanyalah percikan ide, namun perlahan menjelma menjadi <b>MYTHS</b>:<br>
+sebuah dimensi di mana setiap baris kode adalah mantra,<br>
+dan setiap proyek membuka gerbang ke dunia baru. 🌌</i>
 </p>
 
 ---
 
-<h3 align="center">🛠️ Tech & Tools</h3>
+<!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
+<h2 align="center">⚔️ Featured Projects</h2>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="30"/>
+  <a href="https://github.com/kuro-myths/global-map">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kuro-myths&repo=global-map&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6&text_color=c9d1d9" />
+  </a>
+  <a href="https://github.com/kuro-myths/awakening">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kuro-myths&repo=awakening&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6&text_color=c9d1d9" />
+  </a>
 </p>
 
 ---
 
-<h3 align="center">📊 GitHub Stats</h3>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kuro-myths&theme=tokyonight&show_icons=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kuro-myths&layout=compact&theme=tokyonight" height="150"/>
-</div>
-
----
-
-<h3 align="center">✨ Dynamic Message</h3>
+<!-- ═══════════════════ TECH STACK ═══════════════════ -->
+<h2 align="center">🛠️ Tech & Tools</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7DF9FF&center=true&vCenter=true&width=600&lines=Selamat+Datang+di+MYTHS!;Dunia+Fantasi+%26+Kreativitas;Setiap+Kode+adalah+Mantra;Setiap+Project+adalah+Dunia+Baru" alt="Typing SVG" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,laravel,figma,vscode,git,github&theme=dark&perline=9" />
 </p>
 
 ---
 
-<h3 align="center">🐉 Myths Dragon Contributions</h3>
+<!-- ═══════════════════ GITHUB STATS ═══════════════════ -->
+<h2 align="center">📊 GitHub Stats</h2>
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kuro-myths&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6&text_color=c9d1d9&ring_color=8b5cf6" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=kuro-myths&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6&sideLabels=C9D1D9&dates=484F58" />
+</p>
+
+<p align="center">
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kuro-myths&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8b5cf6&text_color=c9d1d9" />
+</p>
+
+---
+
+<!-- ═══════════════════ TROPHY ═══════════════════ -->
+<h2 align="center">🏆 GitHub Trophies</h2>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kuro-myths&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10" />
+</p>
+
+---
+
+<!-- ═══════════════════ ACTIVITY GRAPH ═══════════════════ -->
+<h2 align="center">📈 Contribution Graph</h2>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kuro-myths&bg_color=0d1117&color=8b5cf6&line=8b5cf6&point=c9d1d9&area=true&area_color=8b5cf6&hide_border=true&custom_title=Kuro's%20Contribution%20Graph" />
+</p>
+
+---
+
+<!-- ═══════════════════ SNAKE ANIMATION ═══════════════════ -->
+<h2 align="center">🐉 Myths Dragon Contributions</h2>
+
+<p align="center"><i>"Naga MYTHS memakan kontribusi GitHub-mu!"</i></p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kuro-myths/ular/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kuro-myths/ular/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/kuro-myths/ular/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/kuro-myths/ular/output/github-snake.svg" width="100%" />
   </picture>
 </p>
 
 ---
 
-<h3 align="center">📅 Quote of the Day</h3>
+<!-- ═══════════════════ PAC-MAN / GRID SNAKE ═══════════════════ -->
+<h2 align="center">👾 Pac-Man Contribution Grid</h2>
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Quote"/>
-</p>
-
----
-
-<h3 align="center">👻 Ghost Contribution Graph</h3>
-
-<p align="center"><i>"Hantu-hantu berkeliaran di contribution graph... bisakah kamu melihatnya?"</i></p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kuro-myths/ular/output/ocean.gif" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kuro-myths/ular/output/ocean.gif" />
-    <img alt="ghost-contribution" src="https://raw.githubusercontent.com/kuro-myths/ular/output/ocean.gif" />
-  </picture>
-</p>
-
----
-
-<h3 align="center">🦖 Dino Run Contributions</h3>
-
-<p align="center"><i>"Dinosaurus berlari melewati kontribusi GitHub-mu!"</i></p>
+<p align="center"><i>"Pac-Man berlari memakan grid kontribusi!"</i></p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kuro-myths/ular/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kuro-myths/ular/output/github-contribution-grid-snake.svg" />
-    <img alt="dino-contribution" src="https://raw.githubusercontent.com/kuro-myths/ular/output/github-contribution-grid-snake.svg" />
+    <img alt="pacman-contribution" src="https://raw.githubusercontent.com/kuro-myths/ular/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
 </p>
 
 ---
 
-<h3 align="center">📬 Connect With Me</h3>
+<!-- ═══════════════════ OCEAN GIF ═══════════════════ -->
+<h2 align="center">🌊 Ocean Contribution</h2>
+
+<p align="center"><i>"Kontribusimu mengalir seperti ombak lautan!"</i></p>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&color=FF0000&logoColor=white&style=for-the-badge" height="35"/>
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&logoColor=white&style=for-the-badge" height="35"/>
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&color=7289DA&logoColor=white&style=for-the-badge" height="35"/>
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&color=D14836&logoColor=white&style=for-the-badge" height="35"/>
+  <img src="https://raw.githubusercontent.com/kuro-myths/ular/output/ocean.gif" alt="ocean-contribution" width="100%" />
 </p>
 
 ---
 
+<!-- ═══════════════════ QUOTE ═══════════════════ -->
+<h2 align="center">📅 Quote of the Day</h2>
+
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=kuro-myths.kuro-myths&" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" alt="Random Quote"/>
 </p>
 
-<p align="center"><i>“Di MYTHS, setiap baris kode adalah mantra, dan setiap project adalah dunia baru.”</i></p>
+---
 
-</div>
+<!-- ═══════════════════ CONNECT ═══════════════════ -->
+<h2 align="center">📬 Connect With Me</h2>
+
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="35"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="35"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" height="35"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="35"/></a>
+</p>
+
+---
+
+<!-- ═══════════════════ VISITOR & FOOTER ═══════════════════ -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kuro-myths&style=for-the-badge&color=8b5cf6&label=PROFILE+VIEWS" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=4000&pause=2000&color=8B5CF6&center=true&vCenter=true&width=500&lines=Di+MYTHS,+setiap+baris+kode+adalah+mantra...;Dan+setiap+project+adalah+dunia+baru.+🌌" alt="Footer" />
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:1b263b,100:0d1b2a&height=120&section=footer"/>
