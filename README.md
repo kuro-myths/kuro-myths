@@ -281,6 +281,293 @@ Kalau suka dengan karya saya:
 
 ---
 
+<!-- ═══════════════════ GITHUB METRICS ═══════════════════ -->
+
+### 🧬 GitHub Metrics
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 📦 Repository Stats
+
+| Metric | Value |
+|---|---|
+| ![](https://img.shields.io/badge/📁-Public_Repos-8b5cf6?style=flat-square) | ![Repos](https://img.shields.io/github/search/kuro-myths/kuro-myths/filename?style=flat-square&label=Active&color=22c55e) |
+| ![](https://img.shields.io/badge/⭐-Total_Stars-facc15?style=flat-square) | ![Stars](https://img.shields.io/github/stars/kuro-myths?style=flat-square&color=facc15&affiliations=OWNER) |
+| ![](https://img.shields.io/badge/👥-Followers-3b82f6?style=flat-square) | ![Followers](https://img.shields.io/github/followers/kuro-myths?style=flat-square&color=3b82f6) |
+| ![](https://img.shields.io/badge/👀-Watchers-ec4899?style=flat-square) | ![Watchers](https://img.shields.io/github/watchers/kuro-myths/kuro-myths?style=flat-square&color=ec4899) |
+| ![](https://img.shields.io/badge/🔀-Forks-f97316?style=flat-square) | ![Forks](https://img.shields.io/github/forks/kuro-myths/kuro-myths?style=flat-square&color=f97316) |
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔄 Repo Details — kuro-myths
+
+![Last Commit](https://img.shields.io/github/last-commit/kuro-myths/kuro-myths?style=for-the-badge&color=8b5cf6&label=Last%20Commit)
+![Repo Size](https://img.shields.io/github/repo-size/kuro-myths/kuro-myths?style=for-the-badge&color=3b82f6&label=Repo%20Size)
+![License](https://img.shields.io/github/license/kuro-myths/kuro-myths?style=for-the-badge&color=22c55e&label=License)
+![Created](https://img.shields.io/badge/Created-2025-ec4899?style=for-the-badge&logo=github)
+![Language Count](https://img.shields.io/github/languages/count/kuro-myths/kuro-myths?style=for-the-badge&color=facc15&label=Languages)
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════ ALL REPOS OVERVIEW ═══════════════════ -->
+
+### 📂 All Repositories Overview
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+**🗺️ global-map**
+
+![Stars](https://img.shields.io/github/stars/kuro-myths/global-map?style=flat-square&color=facc15)
+![Forks](https://img.shields.io/github/forks/kuro-myths/global-map?style=flat-square&color=3b82f6)
+![Size](https://img.shields.io/github/repo-size/kuro-myths/global-map?style=flat-square&color=22c55e)
+![Last](https://img.shields.io/github/last-commit/kuro-myths/global-map?style=flat-square&color=8b5cf6)
+
+[🔗 View](https://github.com/kuro-myths/global-map)
+
+</td>
+<td align="center" width="25%">
+
+**⚔️ awakening**
+
+![Stars](https://img.shields.io/github/stars/kuro-myths/awakening?style=flat-square&color=facc15)
+![Forks](https://img.shields.io/github/forks/kuro-myths/awakening?style=flat-square&color=3b82f6)
+![Size](https://img.shields.io/github/repo-size/kuro-myths/awakening?style=flat-square&color=22c55e)
+![Last](https://img.shields.io/github/last-commit/kuro-myths/awakening?style=flat-square&color=8b5cf6)
+
+[🔗 View](https://github.com/kuro-myths/awakening)
+
+</td>
+<td align="center" width="25%">
+
+**🐍 ular**
+
+![Stars](https://img.shields.io/github/stars/kuro-myths/ular?style=flat-square&color=facc15)
+![Forks](https://img.shields.io/github/forks/kuro-myths/ular?style=flat-square&color=3b82f6)
+![Size](https://img.shields.io/github/repo-size/kuro-myths/ular?style=flat-square&color=22c55e)
+![Last](https://img.shields.io/github/last-commit/kuro-myths/ular?style=flat-square&color=8b5cf6)
+
+[🔗 View](https://github.com/kuro-myths/ular)
+
+</td>
+<td align="center" width="25%">
+
+**🐉 kuro-myths**
+
+![Stars](https://img.shields.io/github/stars/kuro-myths/kuro-myths?style=flat-square&color=facc15)
+![Forks](https://img.shields.io/github/forks/kuro-myths/kuro-myths?style=flat-square&color=3b82f6)
+![Size](https://img.shields.io/github/repo-size/kuro-myths/kuro-myths?style=flat-square&color=22c55e)
+![Last](https://img.shields.io/github/last-commit/kuro-myths/kuro-myths?style=flat-square&color=8b5cf6)
+
+[🔗 View](https://github.com/kuro-myths/kuro-myths)
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════ WAKATIME / CODING STATS ═══════════════════ -->
+
+### ⏱️ Coding Journey
+
+<table>
+<tr>
+<td width="60%" valign="top">
+
+#### 📊 Language Breakdown
+
+```text
+HTML         ████████████████░░░░░   76.2%
+CSS          ██░░░░░░░░░░░░░░░░░░░    8.5%
+JavaScript   ██░░░░░░░░░░░░░░░░░░░    6.3%
+Python       █░░░░░░░░░░░░░░░░░░░░    4.1%
+Blade        █░░░░░░░░░░░░░░░░░░░░    3.2%
+PHP          ░░░░░░░░░░░░░░░░░░░░░    1.7%
+```
+
+</td>
+<td width="40%" valign="top">
+
+#### 🎮 Fun Stats
+
+```text
+🏆 Total Commits     266+
+📦 Total Repos       4+
+🔥 Current Streak    9 days
+⭐ Stars Earned      1+
+🔀 Total PRs         6
+📝 Total Issues      1
+🌍 Contributed to    42 repos
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════ GITHUB SKYLINE ═══════════════════ -->
+
+### 🏙️ GitHub 3D Skyline & More
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+[![3D Contrib](https://img.shields.io/badge/🏙️_View-3D_Skyline-8b5cf6?style=for-the-badge)](https://skyline.github.com/kuro-myths/2025)
+
+Lihat kontribusimu dalam bentuk 3D cityscape!
+
+</td>
+<td width="33%" align="center">
+
+[![GitHub Wrapped](https://img.shields.io/badge/📊_View-GitHub_Wrapped-ec4899?style=for-the-badge)](https://www.githubwrapped.io/kuro-myths)
+
+Rangkuman setahun coding-mu!
+
+</td>
+<td width="33%" align="center">
+
+[![Profile Summary](https://img.shields.io/badge/📈_View-Profile_Summary-3b82f6?style=for-the-badge)](https://profile-summary-for-github.com/user/kuro-myths)
+
+Analisis lengkap profil GitHub-mu!
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════ COMMIT CALENDAR HEATMAP ═══════════════════ -->
+
+### 🗓️ Kontribusi Mingguan
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 📅 Commit Activity per Repo
+
+| Repo | Commits | Activity |
+|:---|:---:|:---|
+| 🗺️ global-map | ![](https://img.shields.io/github/commit-activity/m/kuro-myths/global-map?style=flat-square&color=8b5cf6&label=) | ![](https://img.shields.io/github/last-commit/kuro-myths/global-map?style=flat-square&color=22c55e&label=) |
+| ⚔️ awakening | ![](https://img.shields.io/github/commit-activity/m/kuro-myths/awakening?style=flat-square&color=8b5cf6&label=) | ![](https://img.shields.io/github/last-commit/kuro-myths/awakening?style=flat-square&color=22c55e&label=) |
+| 🐍 ular | ![](https://img.shields.io/github/commit-activity/m/kuro-myths/ular?style=flat-square&color=8b5cf6&label=) | ![](https://img.shields.io/github/last-commit/kuro-myths/ular?style=flat-square&color=22c55e&label=) |
+| 🐉 kuro-myths | ![](https://img.shields.io/github/commit-activity/m/kuro-myths/kuro-myths?style=flat-square&color=8b5cf6&label=) | ![](https://img.shields.io/github/last-commit/kuro-myths/kuro-myths?style=flat-square&color=22c55e&label=) |
+
+</td>
+<td width="50%" valign="top">
+
+#### 🕐 Kapan Kuro Paling Aktif?
+
+```text
+Senin        ██████░░░░░░░   44%
+Selasa       ████░░░░░░░░░   30%
+Rabu         ████████░░░░░   60%
+Kamis        ██████████░░░   78%
+Jumat        █████████████   100%🔥
+Sabtu        ████████░░░░░   62%
+Minggu       ███░░░░░░░░░░   22%
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════ REPO LANGUAGES & TOPICS ═══════════════════ -->
+
+### 🏷️ Topics & Skills
+
+<p align="center">
+
+![](https://img.shields.io/badge/Topic-Fantasy-8b5cf6?style=for-the-badge)
+![](https://img.shields.io/badge/Topic-RPG-ec4899?style=for-the-badge)
+![](https://img.shields.io/badge/Topic-Storytelling-3b82f6?style=for-the-badge)
+![](https://img.shields.io/badge/Topic-Web_Dev-22c55e?style=for-the-badge)
+![](https://img.shields.io/badge/Topic-Game_Dev-facc15?style=for-the-badge)
+![](https://img.shields.io/badge/Topic-Digital_Art-f97316?style=for-the-badge)
+![](https://img.shields.io/badge/Topic-Open_Source-ef4444?style=for-the-badge)
+![](https://img.shields.io/badge/Topic-Automation-06b6d4?style=for-the-badge)
+
+</p>
+
+---
+
+<!-- ═══════════════════ ISSUE & PR STATUS ═══════════════════ -->
+
+### 🔧 Open Source Status
+
+<table>
+<tr>
+<td width="50%">
+
+#### 📋 Issues & Pull Requests
+
+| Repo | Issues | PRs |
+|:---|:---:|:---:|
+| global-map | ![](https://img.shields.io/github/issues/kuro-myths/global-map?style=flat-square&color=ef4444&label=) | ![](https://img.shields.io/github/issues-pr/kuro-myths/global-map?style=flat-square&color=8b5cf6&label=) |
+| awakening | ![](https://img.shields.io/github/issues/kuro-myths/awakening?style=flat-square&color=ef4444&label=) | ![](https://img.shields.io/github/issues-pr/kuro-myths/awakening?style=flat-square&color=8b5cf6&label=) |
+| ular | ![](https://img.shields.io/github/issues/kuro-myths/ular?style=flat-square&color=ef4444&label=) | ![](https://img.shields.io/github/issues-pr/kuro-myths/ular?style=flat-square&color=8b5cf6&label=) |
+| kuro-myths | ![](https://img.shields.io/github/issues/kuro-myths/kuro-myths?style=flat-square&color=ef4444&label=) | ![](https://img.shields.io/github/issues-pr/kuro-myths/kuro-myths?style=flat-square&color=8b5cf6&label=) |
+
+</td>
+<td width="50%">
+
+#### ✅ Health Badges
+
+![global-map](https://img.shields.io/github/issues-closed/kuro-myths/global-map?style=for-the-badge&color=22c55e&label=global-map%20Closed)
+![awakening](https://img.shields.io/github/issues-closed/kuro-myths/awakening?style=for-the-badge&color=22c55e&label=awakening%20Closed)
+![PR Merged](https://img.shields.io/github/issues-pr-closed/kuro-myths/global-map?style=for-the-badge&color=8b5cf6&label=PRs%20Merged)
+![Contributors](https://img.shields.io/github/contributors/kuro-myths/global-map?style=for-the-badge&color=3b82f6&label=Contributors)
+![Discussions](https://img.shields.io/badge/Discussions-Open-facc15?style=for-the-badge&logo=github)
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════ GITHUB ACTIONS ═══════════════════ -->
+
+### ⚙️ GitHub Actions & Workflows
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🤖 Active Workflows
+
+| Workflow | Status |
+|:---|:---:|
+| 🐍 Snake Animation | ![Snake](https://img.shields.io/github/actions/workflow/status/kuro-myths/ular/snake.yml?style=flat-square&label=Status&color=22c55e) |
+| 🚀 GitHub Pages | ![Pages](https://img.shields.io/github/deployments/kuro-myths/kuro-myths/github-pages?style=flat-square&label=Deploy&color=3b82f6) |
+
+</td>
+<td width="50%">
+
+#### 📡 Deploy Status
+
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Active-22c55e?style=for-the-badge&logo=github)
+![Workflow](https://img.shields.io/badge/Snake_Workflow-Running-3b82f6?style=for-the-badge&logo=githubactions)
+![CI/CD](https://img.shields.io/badge/Auto_Deploy-Enabled-8b5cf6?style=for-the-badge&logo=githubactions)
+
+</td>
+</tr>
+</table>
+
+---
+
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
 
 <p align="center">
