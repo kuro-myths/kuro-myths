@@ -107,24 +107,9 @@
 
 <!-- ═══════════════════ CONTRIBUTION GRAPH ═══════════════════ -->
 
-<table>
-<tr>
-<td width="65%">
-
 ### 📈 Contribution Activity
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=kuro-myths&bg_color=0d1117&color=8b5cf6&line=8b5cf6&point=c9d1d9&area=true&area_color=8b5cf6&hide_border=true&custom_title=Kuro's%20Contribution%20Graph" width="100%" />
-
-</td>
-<td width="35%" valign="top">
-
-### 🔥 Productive Time
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kuro-myths&theme=tokyonight&utcOffset=7" width="100%" />
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -144,6 +129,43 @@
 
 ---
 
+<!-- ═══════════════════ GALLERY KURO ═══════════════════ -->
+
+### 🎨 Gallery Kuro
+
+<table>
+<tr>
+<td width="25%" align="center">
+<img src="kuro/kuro1.png" width="100%" />
+</td>
+<td width="25%" align="center">
+<img src="kuro/kuro2.png" width="100%" />
+</td>
+<td width="25%" align="center">
+<img src="kuro/kuro3.png" width="100%" />
+</td>
+<td width="25%" align="center">
+<img src="kuro/kuro4.png" width="100%" />
+</td>
+</tr>
+<tr>
+<td width="25%" align="center">
+<img src="kuro/kuro5.png" width="100%" />
+</td>
+<td width="25%" align="center">
+<img src="kuro/kukuro6.png" width="100%" />
+</td>
+<td width="25%" align="center">
+<img src="kuro/kuro7.png" width="100%" />
+</td>
+<td width="25%" align="center">
+<img src="kuro/ChatGPT Image 16 Feb 2026, 00.56.31.png" width="100%" />
+</td>
+</tr>
+</table>
+
+---
+
 <!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
 
 ### ⚔️ Featured Projects
@@ -152,24 +174,32 @@
 <tr>
 <td width="50%">
 
-[![Global Map](https://github-readme-stats.vercel.app/api/pin/?username=kuro-myths&repo=global-map&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/kuro-myths/global-map)
+🗺️ **[Global Map](https://github.com/kuro-myths/global-map)** — Peta dunia MYTHS yang interaktif
+
+![Stars](https://img.shields.io/github/stars/kuro-myths/global-map?style=flat-square&color=8b5cf6) ![Language](https://img.shields.io/github/languages/top/kuro-myths/global-map?style=flat-square&color=3b82f6)
 
 </td>
 <td width="50%">
 
-[![Awakening](https://github-readme-stats.vercel.app/api/pin/?username=kuro-myths&repo=awakening&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/kuro-myths/awakening)
+⚔️ **[Awakening](https://github.com/kuro-myths/awakening)** — Portal Legenda Awakening
+
+![Stars](https://img.shields.io/github/stars/kuro-myths/awakening?style=flat-square&color=8b5cf6) ![Language](https://img.shields.io/github/languages/top/kuro-myths/awakening?style=flat-square&color=3b82f6)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-[![Ular Snake](https://github-readme-stats.vercel.app/api/pin/?username=kuro-myths&repo=ular&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/kuro-myths/ular)
+🐍 **[Ular Snake](https://github.com/kuro-myths/ular)** — Snake contribution animation generator
+
+![Stars](https://img.shields.io/github/stars/kuro-myths/ular?style=flat-square&color=8b5cf6) ![Language](https://img.shields.io/github/languages/top/kuro-myths/ular?style=flat-square&color=3b82f6)
 
 </td>
 <td width="50%">
 
-[![Profile README](https://github-readme-stats.vercel.app/api/pin/?username=kuro-myths&repo=kuro-myths&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/kuro-myths/kuro-myths)
+🐉 **[Kuro Myths](https://github.com/kuro-myths/kuro-myths)** — Profile README ini!
+
+![Stars](https://img.shields.io/github/stars/kuro-myths/kuro-myths?style=flat-square&color=8b5cf6) ![Language](https://img.shields.io/github/languages/top/kuro-myths/kuro-myths?style=flat-square&color=3b82f6)
 
 </td>
 </tr>
@@ -254,7 +284,7 @@ Kalau suka dengan karya saya:
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=4000&pause=2000&color=8B5CF6&center=true&vCenter=true&width=500&lines=Di+MYTHS,+setiap+baris+kode+adalah+mantra...;Dan+setiap+project+adalah+dunia+baru.+🌌;Thanks+for+visiting!+Come+back+anytime+👋" alt="Footer" />
+  <i>"Di MYTHS, setiap baris kode adalah mantra, dan setiap project adalah dunia baru." 🌌</i>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:1b263b,100:0d1b2a&height=120&section=footer"/>
