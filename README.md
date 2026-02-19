@@ -96,7 +96,62 @@ Bagi Kuro, dunia digital bukan sekadar alat, melainkan panggung untuk mewujudkan
 
 ---
 
-<h3 align="center">📬 Connect With Me</h3>
+<h3 align="center">� Ghost Contribution Game</h3>
+
+<p align="center"><i>"Tangkap hantu-hantu yang berkeliaran di contribution graph-mu!"</i></p>
+
+<p align="center">
+  <a href="https://kuro-myths.github.io/kuro-myths/docs/ghost-contribution.html">
+    <img src="https://img.shields.io/badge/🎮_Play-Ghost_Contribution-8b5cf6?style=for-the-badge&logo=ghost&logoColor=white" alt="Play Ghost Contribution"/>
+  </a>
+</p>
+
+<details>
+<summary align="center">👻 Preview Ghost Contribution Game</summary>
+<br>
+<p align="center">
+  Sebuah game interaktif di mana hantu-hantu muncul di atas contribution graph. <br>
+  Klik hantu secepat mungkin untuk mengumpulkan skor! <br>
+  Semakin cepat kamu klik, semakin tinggi skornya! <br><br>
+  <b>🏆 Fitur:</b><br>
+  ✅ Contribution grid bergaya GitHub<br>
+  ✅ Hantu muncul random di grid<br>
+  ✅ Timer 30 detik<br>
+  ✅ High score tracking<br>
+  ✅ Efek visual & animasi keren
+</p>
+</details>
+
+---
+
+<h3 align="center">👾 Alien Shooting Game</h3>
+
+<p align="center"><i>"Pertahankan MYTHS dari invasi alien luar angkasa!"</i></p>
+
+<p align="center">
+  <a href="https://kuro-myths.github.io/kuro-myths/docs/alien-shooting.html">
+    <img src="https://img.shields.io/badge/🎮_Play-Alien_Shooting-ef4444?style=for-the-badge&logo=alien&logoColor=white" alt="Play Alien Shooting"/>
+  </a>
+</p>
+
+<details>
+<summary align="center">👾 Preview Alien Shooting Game</summary>
+<br>
+<p align="center">
+  Tembak alien-alien yang menyerang markas MYTHS! <br>
+  Gunakan mouse untuk mengarahkan pesawatmu dan klik untuk menembak. <br><br>
+  <b>🏆 Fitur:</b><br>
+  ✅ Pesawat luar angkasa yang bisa dikendalikan<br>
+  ✅ Alien dengan pola gerakan unik<br>
+  ✅ Power-up & bonus<br>
+  ✅ Level progresif makin sulit<br>
+  ✅ Efek partikel & ledakan keren
+</p>
+</details>
+
+---
+
+<h3 align="center">�📬 Connect With Me</h3>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&color=FF0000&logoColor=white&style=for-the-badge" height="35"/>

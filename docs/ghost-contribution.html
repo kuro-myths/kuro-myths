@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>👻 Ghost Contribution Game - MYTHS</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Fira+Code:wght@400;600&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #0d1117 100%);
+      color: #c9d1d9;
+      font-family: 'Fira Code', monospace;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-x: hidden;
+    }
+
+    .stars {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .star {
+      position: absolute;
+      background: #fff;
+      border-radius: 50%;
+      animation: twinkle 2s infinite alternate;
+    }
+
+    @keyframes twinkle {
+      0% { opacity: 0.2; }
+      100% { opacity: 1; }
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 30px 20px;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    h1 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1.5rem;
+      color: #8b5cf6;
+      margin-bottom: 10px;
+      text-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+    }
+
+    .subtitle {
+      color: #7c8aaa;
+      margin-bottom: 25px;
+      font-size: 0.85rem;
+    }
+
+    .scoreboard {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .score-item {
+      background: rgba(139, 92, 246, 0.1);
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      border-radius: 12px;
+      padding: 12px 24px;
+      min-width: 130px;
+    }
+
+    .score-label {
+      font-size: 0.65rem;
+      color: #7c8aaa;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .score-value {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1.3rem;
+      color: #8b5cf6;
+      margin-top: 5px;
+    }
+
+    .grid-wrapper {
+      display: inline-block;
+      background: rgba(22, 27, 34, 0.8);
+      border: 1px solid #30363d;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .grid-title {
+      text-align: left;
+      font-size: 0.75rem;
+      color: #7c8aaa;
+      margin-bottom: 10px;
+    }
+
+    .contribution-grid {
+      display: grid;
+      grid-template-columns: repeat(20, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+      gap: 4px;
+    }
+
+    .cell {
+      width: 28px;
+      height: 28px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      position: relative;
+    }
+
+    .cell.level-0 { background: #161b22; border: 1px solid #1e252e; }
+    .cell.level-1 { background: #0e4429; border: 1px solid #1a5c38; }
+    .cell.level-2 { background: #006d32; border: 1px solid #00883f; }
+    .cell.level-3 { background: #26a641; border: 1px solid #33c250; }
+    .cell.level-4 { background: #39d353; border: 1px solid #4ade60; }
+
+    .cell.ghost {
+      animation: ghostAppear 0.3s ease;
+    }
+
+    .cell.ghost::after {
+      content: '👻';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.8));
+      animation: ghostFloat 1s ease-in-out infinite;
+    }
+
+    .cell.ghost-special::after {
+      content: '💀';
+      font-size: 18px;
+    }
+
+    .cell.ghost-golden::after {
+      content: '✨';
+      font-size: 18px;
+      filter: drop-shadow(0 0 12px rgba(255, 215, 0, 0.9));
+    }
+
+    @keyframes ghostAppear {
+      0% { transform: scale(0); opacity: 0; }
+      50% { transform: scale(1.3); }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes ghostFloat {
+      0%, 100% { transform: translate(-50%, -50%) translateY(0); }
+      50% { transform: translate(-50%, -50%) translateY(-3px); }
+    }
+
+    .cell.caught {
+      animation: catchGhost 0.4s ease forwards;
+    }
+
+    @keyframes catchGhost {
+      0% { transform: scale(1); }
+      30% { transform: scale(1.5); background: #8b5cf6; }
+      100% { transform: scale(0); opacity: 0; }
+    }
+
+    .btn {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 0.75rem;
+      padding: 14px 32px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin: 5px;
+    }
+
+    .btn-start {
+      background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+      color: white;
+      box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+    }
+
+    .btn-start:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 30px rgba(139, 92, 246, 0.6);
+    }
+
+    .btn-start:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn-back {
+      background: rgba(99, 102, 241, 0.15);
+      color: #8b5cf6;
+      border: 1px solid rgba(139, 92, 246, 0.3);
+    }
+
+    .btn-back:hover {
+      background: rgba(99, 102, 241, 0.25);
+    }
+
+    .message {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 0.85rem;
+      margin: 15px 0;
+      min-height: 30px;
+      color: #8b5cf6;
+    }
+
+    .combo {
+      position: fixed;
+      pointer-events: none;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 0.7rem;
+      color: #facc15;
+      animation: comboFly 0.8s ease forwards;
+      z-index: 100;
+    }
+
+    @keyframes comboFly {
+      0% { opacity: 1; transform: translateY(0) scale(1); }
+      100% { opacity: 0; transform: translateY(-50px) scale(1.5); }
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 6px;
+      background: #21262d;
+      border-radius: 3px;
+      margin: 10px 0;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #8b5cf6, #ec4899);
+      border-radius: 3px;
+      transition: width 0.3s ease;
+    }
+
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      align-items: center;
+      font-size: 0.65rem;
+      color: #7c8aaa;
+      margin-top: 8px;
+    }
+
+    .legend-cell {
+      width: 12px;
+      height: 12px;
+      border-radius: 2px;
+    }
+
+    footer {
+      margin-top: 20px;
+      color: #484f58;
+      font-size: 0.7rem;
+    }
+
+    footer a {
+      color: #8b5cf6;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="stars" id="stars"></div>
+
+  <div class="container">
+    <h1>👻 GHOST CONTRIBUTION</h1>
+    <p class="subtitle">Tangkap hantu-hantu di contribution graph sebelum waktu habis!</p>
+
+    <div class="scoreboard">
+      <div class="score-item">
+        <div class="score-label">Score</div>
+        <div class="score-value" id="score">0</div>
+      </div>
+      <div class="score-item">
+        <div class="score-label">High Score</div>
+        <div class="score-value" id="highScore">0</div>
+      </div>
+      <div class="score-item">
+        <div class="score-label">Waktu</div>
+        <div class="score-value" id="timer">30</div>
+      </div>
+      <div class="score-item">
+        <div class="score-label">Combo</div>
+        <div class="score-value" id="combo">x1</div>
+      </div>
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill" style="width: 100%"></div>
+    </div>
+
+    <div class="grid-wrapper">
+      <div class="grid-title">📅 kuro-myths's contribution graph</div>
+      <div class="contribution-grid" id="grid"></div>
+      <div class="legend">
+        <span>Less</span>
+        <div class="legend-cell" style="background:#161b22;border:1px solid #1e252e"></div>
+        <div class="legend-cell" style="background:#0e4429"></div>
+        <div class="legend-cell" style="background:#006d32"></div>
+        <div class="legend-cell" style="background:#26a641"></div>
+        <div class="legend-cell" style="background:#39d353"></div>
+        <span>More</span>
+      </div>
+    </div>
+
+    <div class="message" id="message">Tekan START untuk mulai berburu hantu! 👻</div>
+
+    <div>
+      <button class="btn btn-start" id="startBtn" onclick="startGame()">▶ START GAME</button>
+      <a href="https://github.com/kuro-myths/kuro-myths" class="btn btn-back">↩ KEMBALI</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>🎮 Ghost Contribution Game — by <a href="https://github.com/kuro-myths">MYTHS</a></p>
+  </footer>
+
+  <script>
+    const GRID_COLS = 20;
+    const GRID_ROWS = 7;
+    const GAME_DURATION = 30;
+    const MAX_GHOSTS = 4;
+
+    let score = 0;
+    let highScore = parseInt(localStorage.getItem('ghostHighScore') || '0');
+    let timeLeft = GAME_DURATION;
+    let comboCount = 0;
+    let comboMultiplier = 1;
+    let lastCatchTime = 0;
+    let gameInterval = null;
+    let ghostInterval = null;
+    let isPlaying = false;
+    let cells = [];
+
+    // Initialize
+    document.getElementById('highScore').textContent = highScore;
+    createStars();
+    createGrid();
+
+    function createStars() {
+      const container = document.getElementById('stars');
+      for (let i = 0; i < 80; i++) {
+        const star = document.createElement('div');
+        star.className = 'star';
+        star.style.left = Math.random() * 100 + '%';
+        star.style.top = Math.random() * 100 + '%';
+        star.style.width = star.style.height = Math.random() * 3 + 'px';
+        star.style.animationDelay = Math.random() * 3 + 's';
+        star.style.animationDuration = (Math.random() * 2 + 1) + 's';
+        container.appendChild(star);
+      }
+    }
+
+    function createGrid() {
+      const grid = document.getElementById('grid');
+      grid.innerHTML = '';
+      cells = [];
+
+      for (let row = 0; row < GRID_ROWS; row++) {
+        for (let col = 0; col < GRID_COLS; col++) {
+          const cell = document.createElement('div');
+          const level = Math.floor(Math.random() * 5);
+          cell.className = `cell level-${level}`;
+          cell.dataset.row = row;
+          cell.dataset.col = col;
+          cell.addEventListener('click', () => handleClick(cell));
+          grid.appendChild(cell);
+          cells.push(cell);
+        }
+      }
+    }
+
+    function handleClick(cell) {
+      if (!isPlaying) return;
+
+      if (cell.classList.contains('ghost') || cell.classList.contains('ghost-special') || cell.classList.contains('ghost-golden')) {
+        const now = Date.now();
+        let points = 10;
+
+        if (cell.classList.contains('ghost-golden')) {
+          points = 50;
+        } else if (cell.classList.contains('ghost-special')) {
+          points = 25;
+        }
+
+        // Combo system
+        if (now - lastCatchTime < 1500) {
+          comboCount++;
+          comboMultiplier = Math.min(1 + comboCount * 0.5, 5);
+        } else {
+          comboCount = 0;
+          comboMultiplier = 1;
+        }
+        lastCatchTime = now;
+
+        const earned = Math.floor(points * comboMultiplier);
+        score += earned;
+
+        document.getElementById('score').textContent = score;
+        document.getElementById('combo').textContent = `x${comboMultiplier.toFixed(1)}`;
+
+        // Floating score effect
+        showFloatingScore(cell, `+${earned}`);
+
+        // Catch animation
+        cell.classList.add('caught');
+        setTimeout(() => {
+          cell.classList.remove('ghost', 'ghost-special', 'ghost-golden', 'caught');
+        }, 400);
+      }
+    }
+
+    function showFloatingScore(cell, text) {
+      const rect = cell.getBoundingClientRect();
+      const el = document.createElement('div');
+      el.className = 'combo';
+      el.textContent = text;
+      el.style.left = rect.left + rect.width / 2 + 'px';
+      el.style.top = rect.top + 'px';
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 800);
+    }
+
+    function spawnGhost() {
+      const currentGhosts = document.querySelectorAll('.ghost, .ghost-special, .ghost-golden');
+      if (currentGhosts.length >= MAX_GHOSTS) return;
+
+      const available = cells.filter(c =>
+        !c.classList.contains('ghost') &&
+        !c.classList.contains('ghost-special') &&
+        !c.classList.contains('ghost-golden') &&
+        !c.classList.contains('caught')
+      );
+      if (available.length === 0) return;
+
+      const cell = available[Math.floor(Math.random() * available.length)];
+
+      const rand = Math.random();
+      if (rand < 0.05) {
+        cell.classList.add('ghost-golden');
+      } else if (rand < 0.2) {
+        cell.classList.add('ghost-special');
+      } else {
+        cell.classList.add('ghost');
+      }
+
+      // Auto-remove ghost after a while
+      const lifetime = 2000 + Math.random() * 2000;
+      setTimeout(() => {
+        cell.classList.remove('ghost', 'ghost-special', 'ghost-golden');
+      }, lifetime);
+    }
+
+    function startGame() {
+      if (isPlaying) return;
+      isPlaying = true;
+      score = 0;
+      timeLeft = GAME_DURATION;
+      comboCount = 0;
+      comboMultiplier = 1;
+
+      document.getElementById('score').textContent = '0';
+      document.getElementById('combo').textContent = 'x1';
+      document.getElementById('timer').textContent = timeLeft;
+      document.getElementById('progressFill').style.width = '100%';
+      document.getElementById('message').textContent = '🎯 Tangkap semua hantu!';
+      document.getElementById('startBtn').disabled = true;
+
+      // Clear old ghosts
+      cells.forEach(c => c.classList.remove('ghost', 'ghost-special', 'ghost-golden', 'caught'));
+
+      // Regenerate grid background
+      cells.forEach(c => {
+        const level = Math.floor(Math.random() * 5);
+        c.className = `cell level-${level}`;
+      });
+
+      ghostInterval = setInterval(spawnGhost, 600);
+
+      gameInterval = setInterval(() => {
+        timeLeft--;
+        document.getElementById('timer').textContent = timeLeft;
+        document.getElementById('progressFill').style.width = (timeLeft / GAME_DURATION * 100) + '%';
+
+        if (timeLeft <= 5) {
+          document.getElementById('timer').style.color = '#ef4444';
+        }
+
+        if (timeLeft <= 0) {
+          endGame();
+        }
+      }, 1000);
+    }
+
+    function endGame() {
+      isPlaying = false;
+      clearInterval(gameInterval);
+      clearInterval(ghostInterval);
+
+      cells.forEach(c => c.classList.remove('ghost', 'ghost-special', 'ghost-golden'));
+
+      if (score > highScore) {
+        highScore = score;
+        localStorage.setItem('ghostHighScore', highScore);
+        document.getElementById('highScore').textContent = highScore;
+        document.getElementById('message').textContent = `🏆 NEW HIGH SCORE! ${score} points!`;
+      } else {
+        document.getElementById('message').textContent = `⏰ Waktu habis! Skor: ${score}`;
+      }
+
+      document.getElementById('startBtn').disabled = false;
+      document.getElementById('timer').style.color = '#8b5cf6';
+    }
+  </script>
+</body>
+</html>
